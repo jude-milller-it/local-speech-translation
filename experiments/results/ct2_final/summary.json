@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "python": "3.14.7",
+    "torch": "2.15.0+cu132",
+    "transformers": "5.22.1",
+    "ctranslate2": "4.8.5",
+    "device": "cpu",
+    "threads": 4,
+    "beam_size": 6,
+    "length_penalty": 1.0,
+    "max_new_tokens": 512,
+    "repeats": 3,
+    "batch_sizes": [
+      1,
+      4
+    ],
+    "cpu_supported_compute_types": [
+      "float32",
+      "int16",
+      "int8",
+      "int8_float32"
+    ],
+    "note": "Same weights, same source segmentation and source tokenization, CPU-only paired benchmark. 24 assistant-authored technical references and 50 fixed FLORES-200 reference sentences. Quality measured once; timing subset first 12 segments, three repeats. Not human accuracy.",
+    "hashes": {
+      "translator/ct2_translator.py": "9da64293f24bef769f9ba97a3d330f6cec2fb74b11a40b2c785442da1b1478bf",
+      "translator/reliable_translator.py": "9892b1db9834edb26da496746f8a328d2b6b13536c89ba101e943c74aee1c37c",
+      "experiments/evaluate_ct2.py": "318213f516a387f0e1a426b720349070a730d3f03c788f5b577c6037aaaa4171"
+    }
+  },
+  "quality": {
+    "technical_diagnostic": {
+      "torch_fp32": {
+        "BLEU": 30.45651645705712,
+        "chrF2pp": 55.69476875554016,
+        "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+        "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.5.1",
+        "cases": 24,
+        "exact_same_as_torch": 24
+      },
+      "ct2_fp32": {
+        "BLEU": 31.27588345435548,
+        "chrF2pp": 55.903854923003735,
+        "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+        "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.5.1",
+        "cases": 24,
+        "exact_same_as_torch": 23
+      },
+      "ct2_int8": {
+        "BLEU": 33.177848618190524,
+        "chrF2pp": 56.52964472148808,
+        "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+        "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.5.1",
+        "cases": 24,
+        "exact_same_as_torch": 18
+      }
+    },
+    "flores200_devtest_subset": {
+      "torch_fp32": {
+        "BLEU": 19.444742478563175,
+        "chrF2pp": 50.639604811515284,
+        "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+        "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.5.1",
+        "cases": 50,
+        "exact_same_as_torch": 50
+      },
+      "ct2_fp32": {
+        "BLEU": 19.505261674353534,
+        "chrF2pp": 50.43085448778424,
+        "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+        "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.5.1",
+        "cases": 50,
+        "exact_same_as_torch": 46
+      },
+      "ct2_int8": {
+        "BLEU": 19.722177942618902,
+        "chrF2pp": 50.254231977314646,
+        "BLEU_signature": "nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.5.1",
+        "chrF_signature": "nrefs:1|case:mixed|eff:yes|nc:6|nw:2|space:no|version:2.5.1",
+        "cases": 50,
+        "exact_same_as_torch": 23
+      }
+    }
+  },
+  "benchmark": {
+    "1": {
+      "torch_fp32": {
+        "seconds": [
+          4.883848500001477,
+          4.91552049999882,
+          4.950186100002611
+        ],
+        "median_s": 4.91552049999882,
+        "sentences": 12
+      },
+      "ct2_fp32": {
+        "seconds": [
+          2.3761893000046257,
+          2.4062031999928877,
+          2.4495495000010123
+        ],
+        "median_s": 2.4062031999928877,
+        "sentences": 12
+      },
+      "ct2_int8": {
+        "seconds": [
+          1.1500452000036603,
+          1.1080394000018714,
+          1.1181537999946158
+        ],
+        "median_s": 1.1181537999946158,
+        "sentences": 12
+      }
+    },
+    "4": {
+      "torch_fp32": {
+        "seconds": [
+          2.611276399999042,
+          2.6434224000113318,
+          2.6325276999996277
+        ],
+        "median_s": 2.6325276999996277,
+        "sentences": 12
+      },
+      "ct2_fp32": {
+        "seconds": [
+          1.306598999988637,
+          1.2983758999907877,
+          1.2772712000005413
+        ],
+        "median_s": 1.2983758999907877,
+        "sentences": 12
+      },
+      "ct2_int8": {
+        "seconds": [
+          0.7177373000013176,
+          0.6892173999949591,
+          0.7076031000033254
+        ],
+        "median_s": 0.7076031000033254,
+        "sentences": 12
+      }
+    }
+  },
+  "conversion": {
+    "float32": {
+      "source": "translator/opus-mt-zh-en",
+      "source_model_sha256": "9d8ceb91d103ef89400c9d9d62328b4858743cf8924878aee3b8afc594242ce0",
+      "engine": "CTranslate2",
+      "version": "4.8.5",
+      "quantization": "float32",
+      "model_bytes": 312363127,
+      "source_model": "https://huggingface.co/Helsinki-NLP/opus-mt-zh-en",
+      "source_license": "CC BY 4.0",
+      "algorithm_source": "https://github.com/OpenNMT/CTranslate2"
+    },
+    "int8": {
+      "source": "translator/opus-mt-zh-en",
+      "source_model_sha256": "9d8ceb91d103ef89400c9d9d62328b4858743cf8924878aee3b8afc594242ce0",
+      "engine": "CTranslate2",
+      "version": "4.8.5",
+      "quantization": "int8",
+      "model_bytes": 80936867,
+      "source_model": "https://huggingface.co/Helsinki-NLP/opus-mt-zh-en",
+      "source_license": "CC BY 4.0",
+      "algorithm_source": "https://github.com/OpenNMT/CTranslate2"
+    }
+  },
+  "quality_wall_seconds": {
+    "torch_fp32": 30.227322599996114,
+    "ct2_fp32": 13.189036800002214,
+    "ct2_int8": 7.201371899995138
+  }
+}

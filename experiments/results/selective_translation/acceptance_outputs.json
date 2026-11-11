@@ -1,0 +1,933 @@
+[
+  {
+    "split": "technical",
+    "source": "请在卷积层之后添加一个池化层。",
+    "reference": "Please add a pooling layer after the convolutional layer.",
+    "outputs": {
+      "baseline": "Please add a pool layer after the volume layer.",
+      "selective": "After adding a convolutional layer, add a pooling layer."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "Please add a pool layer after the volume layer.",
+        "segments": [
+          {
+            "source": "请在卷积层之后添加一个池化层。",
+            "initial": "Please add a pool layer after the volume layer.",
+            "translation": "Please add a pool layer after the volume layer.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [
+              "术语待核对：卷积层",
+              "术语待核对：池化层"
+            ],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.11280780000379309
+      },
+      "selective": {
+        "translation": "After adding a convolutional layer, add a pooling layer.",
+        "segments": [
+          {
+            "source": "请在卷积层之后添加一个池化层。",
+            "initial": "Please add a pool layer after the volume layer.",
+            "translation": "After adding a convolutional layer, add a pooling layer.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "expert_selected",
+              "selected": 1,
+              "candidates": [
+                "Please add a pool layer after the volume layer.",
+                "After adding a convolutional layer, add a pooling layer."
+              ],
+              "missing_terms_before": [
+                "卷积层",
+                "池化层"
+              ],
+              "missing_terms_after": [],
+              "expert_fact_checks": {
+                "violations": [],
+                "warnings": []
+              }
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 1.6940653000201564,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  },
+  {
+    "split": "technical",
+    "source": "模型已经过拟合，因此我们降低了学习率。",
+    "reference": "The model has overfit, so we reduced the learning rate.",
+    "outputs": {
+      "baseline": "Models have been completed, so we have reduced the rate of learning.",
+      "selective": "The model has overfit, so we have reduced the learning rate."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "Models have been completed, so we have reduced the rate of learning.",
+        "segments": [
+          {
+            "source": "模型已经过拟合，因此我们降低了学习率。",
+            "initial": "Models have been completed, so we have reduced the rate of learning.",
+            "translation": "Models have been completed, so we have reduced the rate of learning.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [
+              "术语待核对：学习率",
+              "术语待核对：过拟合"
+            ],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.1786673000024166
+      },
+      "selective": {
+        "translation": "The model has overfit, so we have reduced the learning rate.",
+        "segments": [
+          {
+            "source": "模型已经过拟合，因此我们降低了学习率。",
+            "initial": "Models have been completed, so we have reduced the rate of learning.",
+            "translation": "The model has overfit, so we have reduced the learning rate.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [
+              "术语待核对：过拟合"
+            ],
+            "selection": {
+              "reason": "expert_selected",
+              "selected": 1,
+              "candidates": [
+                "Models have been completed, so we have reduced the rate of learning.",
+                "The model has overfit, so we have reduced the learning rate."
+              ],
+              "missing_terms_before": [
+                "学习率",
+                "过拟合"
+              ],
+              "missing_terms_after": [
+                "过拟合"
+              ],
+              "expert_fact_checks": {
+                "violations": [],
+                "warnings": []
+              }
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 0.4699123000027612,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  },
+  {
+    "split": "technical",
+    "source": "梯度下降每次都会更新权重。",
+    "reference": "Gradient descent updates the weights at every step.",
+    "outputs": {
+      "baseline": "Each time a gradient drops, the weight is updated.",
+      "selective": "The weights will be updated by gradient descent each time."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "Each time a gradient drops, the weight is updated.",
+        "segments": [
+          {
+            "source": "梯度下降每次都会更新权重。",
+            "initial": "Each time a gradient drops, the weight is updated.",
+            "translation": "Each time a gradient drops, the weight is updated.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [
+              "术语待核对：梯度下降"
+            ],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.127744099998381
+      },
+      "selective": {
+        "translation": "The weights will be updated by gradient descent each time.",
+        "segments": [
+          {
+            "source": "梯度下降每次都会更新权重。",
+            "initial": "Each time a gradient drops, the weight is updated.",
+            "translation": "The weights will be updated by gradient descent each time.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "expert_selected",
+              "selected": 1,
+              "candidates": [
+                "Each time a gradient drops, the weight is updated.",
+                "The weights will be updated by gradient descent each time."
+              ],
+              "missing_terms_before": [
+                "梯度下降"
+              ],
+              "missing_terms_after": [],
+              "expert_fact_checks": {
+                "violations": [],
+                "warnings": []
+              }
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 0.42696260000229813,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  },
+  {
+    "split": "technical",
+    "source": "全连接层的输入维度为128。",
+    "reference": "The input dimension of the fully connected layer is 128.",
+    "outputs": {
+      "baseline": "The input dimension of the entire connection layer is 128.",
+      "selective": "The input dimension of the fully connected layer is 128."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "The input dimension of the entire connection layer is 128.",
+        "segments": [
+          {
+            "source": "全连接层的输入维度为128。",
+            "initial": "The input dimension of the entire connection layer is 128.",
+            "translation": "The input dimension of the entire connection layer is 128.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [
+              "术语待核对：全连接层"
+            ],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.15064649999840185
+      },
+      "selective": {
+        "translation": "The input dimension of the fully connected layer is 128.",
+        "segments": [
+          {
+            "source": "全连接层的输入维度为128。",
+            "initial": "The input dimension of the entire connection layer is 128.",
+            "translation": "The input dimension of the fully connected layer is 128.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "expert_selected",
+              "selected": 1,
+              "candidates": [
+                "The input dimension of the entire connection layer is 128.",
+                "The input dimension of the fully connected layer is 128."
+              ],
+              "missing_terms_before": [
+                "全连接层"
+              ],
+              "missing_terms_after": [],
+              "expert_fact_checks": {
+                "violations": [],
+                "warnings": []
+              }
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 0.48440080002183095,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  },
+  {
+    "split": "technical",
+    "source": "这张特征图只有一个通道。",
+    "reference": "This feature map has only one channel.",
+    "outputs": {
+      "baseline": "There's only one channel in this characterization.",
+      "selective": "This feature map has only one channel."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "There's only one channel in this characterization.",
+        "segments": [
+          {
+            "source": "这张特征图只有一个通道。",
+            "initial": "There's only one channel in this characterization.",
+            "translation": "There's only one channel in this characterization.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.10583250000490807
+      },
+      "selective": {
+        "translation": "This feature map has only one channel.",
+        "segments": [
+          {
+            "source": "这张特征图只有一个通道。",
+            "initial": "There's only one channel in this characterization.",
+            "translation": "This feature map has only one channel.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "expert_selected",
+              "selected": 1,
+              "candidates": [
+                "There's only one channel in this characterization.",
+                "This feature map has only one channel."
+              ],
+              "missing_terms_before": [
+                "特征图"
+              ],
+              "missing_terms_after": [],
+              "expert_fact_checks": {
+                "violations": [],
+                "warnings": []
+              }
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 0.3387125000008382,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  },
+  {
+    "split": "technical",
+    "source": "不要把回归问题误认为分类问题。",
+    "reference": "Do not confuse a regression problem with a classification problem.",
+    "outputs": {
+      "baseline": "Do not mistake the issue of returns as a classification problem.",
+      "selective": "Do not mistake the issue of returns as a classification problem."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "Do not mistake the issue of returns as a classification problem.",
+        "segments": [
+          {
+            "source": "不要把回归问题误认为分类问题。",
+            "initial": "Do not mistake the issue of returns as a classification problem.",
+            "translation": "Do not mistake the issue of returns as a classification problem.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.13916530000278726
+      },
+      "selective": {
+        "translation": "Do not mistake the issue of returns as a classification problem.",
+        "segments": [
+          {
+            "source": "不要把回归问题误认为分类问题。",
+            "initial": "Do not mistake the issue of returns as a classification problem.",
+            "translation": "Do not mistake the issue of returns as a classification problem.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "expert_rejected_by_checks",
+              "selected": 0,
+              "candidates": [
+                "Do not mistake the issue of returns as a classification problem.",
+                "Don't confuse regression with classification."
+              ],
+              "missing_terms_before": [
+                "回归问题"
+              ],
+              "missing_terms_after": [
+                "回归问题",
+                "分类问题"
+              ],
+              "expert_fact_checks": {
+                "violations": [],
+                "warnings": []
+              }
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 0.3666339999763295,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  },
+  {
+    "split": "facts",
+    "source": "价格从48元降至36元。",
+    "reference": "The price fell from 48 yuan to 36 yuan.",
+    "outputs": {
+      "baseline": "The price was reduced from $48 to $36.",
+      "selective": "The price from 48 yuan has been reduced to 36 yuan."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "The price was reduced from $48 to $36.",
+        "segments": [
+          {
+            "source": "价格从48元降至36元。",
+            "initial": "The price was reduced from $48 to $36.",
+            "translation": "The price was reduced from $48 to $36.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [
+              "货币单位可能发生变化"
+            ],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [
+                "currency_mismatch"
+              ],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.09987269999692217
+      },
+      "selective": {
+        "translation": "The price from 48 yuan has been reduced to 36 yuan.",
+        "segments": [
+          {
+            "source": "价格从48元降至36元。",
+            "initial": "The price was reduced from $48 to $36.",
+            "translation": "The price from 48 yuan has been reduced to 36 yuan.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "expert_selected",
+              "selected": 1,
+              "candidates": [
+                "The price was reduced from $48 to $36.",
+                "The price from 48 yuan has been reduced to 36 yuan."
+              ],
+              "missing_terms_before": [],
+              "missing_terms_after": [],
+              "expert_fact_checks": {
+                "violations": [],
+                "warnings": []
+              }
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 0.42043090000515804,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  },
+  {
+    "split": "facts",
+    "source": "利率由3%上升到5%。",
+    "reference": "The interest rate rose from 3% to 5%.",
+    "outputs": {
+      "baseline": "Interest rates rose from 3 per cent to 5 per cent.",
+      "selective": "Interest rates rose from 3 per cent to 5 per cent."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "Interest rates rose from 3 per cent to 5 per cent.",
+        "segments": [
+          {
+            "source": "利率由3%上升到5%。",
+            "initial": "Interest rates rose from 3 per cent to 5 per cent.",
+            "translation": "Interest rates rose from 3 per cent to 5 per cent.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.13645670001278631
+      },
+      "selective": {
+        "translation": "Interest rates rose from 3 per cent to 5 per cent.",
+        "segments": [
+          {
+            "source": "利率由3%上升到5%。",
+            "initial": "Interest rates rose from 3 per cent to 5 per cent.",
+            "translation": "Interest rates rose from 3 per cent to 5 per cent.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "fast_checks_passed",
+              "candidates": [
+                "Interest rates rose from 3 per cent to 5 per cent."
+              ]
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 0.11346679998678155,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  },
+  {
+    "split": "general",
+    "source": "我们还没有收到付款。",
+    "reference": "We have not received the payment yet.",
+    "outputs": {
+      "baseline": "We have not yet received payment.",
+      "selective": "We have not yet received payment."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "We have not yet received payment.",
+        "segments": [
+          {
+            "source": "我们还没有收到付款。",
+            "initial": "We have not yet received payment.",
+            "translation": "We have not yet received payment.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.07636289999936707
+      },
+      "selective": {
+        "translation": "We have not yet received payment.",
+        "segments": [
+          {
+            "source": "我们还没有收到付款。",
+            "initial": "We have not yet received payment.",
+            "translation": "We have not yet received payment.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "fast_checks_passed",
+              "candidates": [
+                "We have not yet received payment."
+              ]
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 0.08211019998998381,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  },
+  {
+    "split": "general",
+    "source": "会议将在下午两点开始。",
+    "reference": "The meeting will start at two in the afternoon.",
+    "outputs": {
+      "baseline": "The meeting will begin at 2 p.m.",
+      "selective": "The meeting will begin at 2 p.m."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "The meeting will begin at 2 p.m.",
+        "segments": [
+          {
+            "source": "会议将在下午两点开始。",
+            "initial": "The meeting will begin at 2 p.m.",
+            "translation": "The meeting will begin at 2 p.m.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.10303450000355951
+      },
+      "selective": {
+        "translation": "The meeting will begin at 2 p.m.",
+        "segments": [
+          {
+            "source": "会议将在下午两点开始。",
+            "initial": "The meeting will begin at 2 p.m.",
+            "translation": "The meeting will begin at 2 p.m.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "fast_checks_passed",
+              "candidates": [
+                "The meeting will begin at 2 p.m."
+              ]
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 0.10300030000507832,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  },
+  {
+    "split": "general",
+    "source": "请将备份保存在本地。",
+    "reference": "Please save the backup locally.",
+    "outputs": {
+      "baseline": "Save the backup locally.",
+      "selective": "Save the backup locally."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "Save the backup locally.",
+        "segments": [
+          {
+            "source": "请将备份保存在本地。",
+            "initial": "Save the backup locally.",
+            "translation": "Save the backup locally.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.07048510000458919
+      },
+      "selective": {
+        "translation": "Save the backup locally.",
+        "segments": [
+          {
+            "source": "请将备份保存在本地。",
+            "initial": "Save the backup locally.",
+            "translation": "Save the backup locally.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "fast_checks_passed",
+              "candidates": [
+                "Save the backup locally."
+              ]
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 0.07477189999190159,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  },
+  {
+    "split": "general",
+    "source": "如果网络断开，请稍后重试。",
+    "reference": "If the network disconnects, please try again later.",
+    "outputs": {
+      "baseline": "If the network is disconnected, please try again later.",
+      "selective": "If the network is disconnected, please try again later."
+    },
+    "reports": {
+      "baseline": {
+        "translation": "If the network is disconnected, please try again later.",
+        "segments": [
+          {
+            "source": "如果网络断开，请稍后重试。",
+            "initial": "If the network is disconnected, please try again later.",
+            "translation": "If the network is disconnected, please try again later.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "baseline",
+              "candidates": []
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "baseline",
+        "seconds": 0.15995500001008622
+      },
+      "selective": {
+        "translation": "If the network is disconnected, please try again later.",
+        "segments": [
+          {
+            "source": "如果网络断开，请稍后重试。",
+            "initial": "If the network is disconnected, please try again later.",
+            "translation": "If the network is disconnected, please try again later.",
+            "retry_attempted": false,
+            "retry_accepted": false,
+            "warnings": [],
+            "selection": {
+              "reason": "fast_checks_passed",
+              "candidates": [
+                "If the network is disconnected, please try again later."
+              ]
+            },
+            "fact_checks": {
+              "violations": [],
+              "warnings": []
+            }
+          }
+        ],
+        "limitations": "Pretrained-model fallback with narrow checks; not a guarantee of semantic correctness. Model substitution is reported explicitly; no training or original-model accuracy claim.",
+        "backend": "CTranslate2 MarianMT with optional Qwen fallback",
+        "precision": "float32",
+        "num_beams": 6,
+        "mode": "selective",
+        "seconds": 0.13565559999551624,
+        "expert_model": "Qwen/Qwen2.5-0.5B-Instruct",
+        "expert_precision": "int8",
+        "expert_device": "cpu"
+      }
+    }
+  }
+]

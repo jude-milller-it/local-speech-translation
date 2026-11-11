@@ -1,0 +1,9 @@
+{
+  "卷积神经网络": ["convolutional neural network", "convolution neural network"],
+  "卷积层": ["convolutional layer", "convolution layer"],
+  "池化层": ["pooling layer"],
+  "全连接层": ["fully connected layer", "fully-connected layer"],
+  "学习率": ["learning rate"],
+  "过拟合": ["overfitting", "over-fitting"],
+  "梯度下降": ["gradient descent"]
+}

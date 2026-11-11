@@ -1,0 +1,74 @@
+{
+  "cases": 16,
+  "case_sha256": "6375281d856c629e281c3174b7e0669cfaccbefdda3de5ba9e06b6b35281af2a",
+  "metrics": {
+    "technical": {
+      "baseline": {
+        "BLEU": 15.52454748910085,
+        "chrFpp": 47.46695966986364,
+        "missing_domain_terms": 6
+      },
+      "selective": {
+        "BLEU": 45.63471878433477,
+        "chrFpp": 72.48341902054905,
+        "missing_domain_terms": 0
+      },
+      "quality": {
+        "BLEU": 53.85798185607637,
+        "chrFpp": 78.32473159983938,
+        "missing_domain_terms": 0
+      }
+    },
+    "general": {
+      "baseline": {
+        "BLEU": 35.49481056010054,
+        "chrFpp": 60.45422663494131,
+        "missing_domain_terms": 0
+      },
+      "selective": {
+        "BLEU": 35.49481056010054,
+        "chrFpp": 60.45422663494131,
+        "missing_domain_terms": 0
+      },
+      "quality": {
+        "BLEU": 43.78387819696369,
+        "chrFpp": 70.61896938134208,
+        "missing_domain_terms": 0
+      }
+    }
+  },
+  "timing_four_inputs": {
+    "baseline": {
+      "runs": [
+        0.551005500019528,
+        0.5363851000147406,
+        0.5174931000219658
+      ],
+      "median_s": 0.5363851000147406
+    },
+    "selective": {
+      "runs": [
+        1.2304771000053734,
+        1.315655099984724,
+        1.17796990001807
+      ],
+      "median_s": 1.2304771000053734
+    },
+    "quality": {
+      "runs": [
+        1.7834453999821562,
+        1.5276360000134446,
+        1.5721938000060618
+      ],
+      "median_s": 1.5721938000060618
+    }
+  },
+  "expert_load_s": 1.3411893000011332,
+  "rss_growth_mb": 759.05859375,
+  "expert_routed": 5,
+  "limitations": [
+    "AI-authored references frozen before first NLLB evaluation; Qwen is a subsequent development experiment on the same set; small functional set, not an independent human benchmark",
+    "Different pretrained models and beam settings; do not attribute gains to MarianMT inference optimization",
+    "No statistical significance or human blind assessment"
+  ]
+}

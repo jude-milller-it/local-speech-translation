@@ -1,0 +1,62 @@
+[
+  {
+    "split": "technical",
+    "source": "请在卷积层之后添加一个池化层。",
+    "reference": "Please add a pooling layer after the convolutional layer."
+  },
+  {
+    "split": "technical",
+    "source": "模型已经过拟合，因此我们降低了学习率。",
+    "reference": "The model has overfit, so we reduced the learning rate."
+  },
+  {
+    "split": "technical",
+    "source": "梯度下降每次都会更新权重。",
+    "reference": "Gradient descent updates the weights at every step."
+  },
+  {
+    "split": "technical",
+    "source": "全连接层的输入维度为128。",
+    "reference": "The input dimension of the fully connected layer is 128."
+  },
+  {
+    "split": "technical",
+    "source": "这张特征图只有一个通道。",
+    "reference": "This feature map has only one channel."
+  },
+  {
+    "split": "technical",
+    "source": "不要把回归问题误认为分类问题。",
+    "reference": "Do not confuse a regression problem with a classification problem."
+  },
+  {
+    "split": "facts",
+    "source": "价格从48元降至36元。",
+    "reference": "The price fell from 48 yuan to 36 yuan."
+  },
+  {
+    "split": "facts",
+    "source": "利率由3%上升到5%。",
+    "reference": "The interest rate rose from 3% to 5%."
+  },
+  {
+    "split": "general",
+    "source": "我们还没有收到付款。",
+    "reference": "We have not received the payment yet."
+  },
+  {
+    "split": "general",
+    "source": "会议将在下午两点开始。",
+    "reference": "The meeting will start at two in the afternoon."
+  },
+  {
+    "split": "general",
+    "source": "请将备份保存在本地。",
+    "reference": "Please save the backup locally."
+  },
+  {
+    "split": "general",
+    "source": "如果网络断开，请稍后重试。",
+    "reference": "If the network disconnects, please try again later."
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "cases": 12,
+  "case_sha256": "5f9a148c0f80b18e64d74c6ff9bc012e49153681c40a79b993b983aa3e2ed316",
+  "code_hashes": {
+    "translator/selective_translator.py": "99db3f5238581e2e9d3673cab84054b5d1a415bae7988d2b977a314d67f2c817",
+    "translator/qwen_expert.py": "f9c6623c18d5521c2ce721c572680df610074a00434da72a1d62993a39d9e2b1",
+    "translator/fact_checks.py": "d1938b56a238bfa186718107249f055b63a5b1deec392a87c63e443b9318c066"
+  },
+  "metrics": {
+    "technical": {
+      "baseline": {
+        "BLEU": 24.023477746700216,
+        "chrFpp": 52.50894425197284,
+        "missing_domain_terms": 8
+      },
+      "selective": {
+        "BLEU": 55.292128494847475,
+        "chrFpp": 74.09872044079088,
+        "missing_domain_terms": 2
+      }
+    },
+    "facts": {
+      "baseline": {
+        "BLEU": 11.362029792790551,
+        "chrFpp": 41.46119961537956,
+        "missing_domain_terms": 0
+      },
+      "selective": {
+        "BLEU": 23.08683154720513,
+        "chrFpp": 59.43039498440436,
+        "missing_domain_terms": 0
+      }
+    },
+    "general": {
+      "baseline": {
+        "BLEU": 38.60685168103854,
+        "chrFpp": 65.13706481273556,
+        "missing_domain_terms": 0
+      },
+      "selective": {
+        "BLEU": 38.60685168103854,
+        "chrFpp": 65.13706481273556,
+        "missing_domain_terms": 0
+      }
+    }
+  },
+  "changed_cases": 6,
+  "general_outputs_unchanged": true,
+  "limits": "Small pre-fixed AI-authored acceptance set, no independent human evaluation or significance test. Not a publication-level result."
+}

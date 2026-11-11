@@ -1,0 +1,58 @@
+[
+  {
+    "source": "他说：“请保存实验结果。”",
+    "report": {
+      "translation": "He said, \"Please preserve the results of the experiment.\"",
+      "segments": [
+        {
+          "source": "他说：“请保存实验结果。”",
+          "initial": "He said, \"Please preserve the results of the experiment.\"",
+          "translation": "He said, \"Please preserve the results of the experiment.\"",
+          "retry_attempted": false,
+          "retry_accepted": false,
+          "warnings": []
+        }
+      ],
+      "limitations": "Rule checks do not verify negation, factuality or overall translation quality.",
+      "backend": "CTranslate2",
+      "precision": "float32",
+      "num_beams": 6
+    }
+  },
+  {
+    "source": "人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的最终答案是四十二",
+    "report": {
+      "translation": "Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. The rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles is profoundly transforming people's rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles, and the rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles are profoundly transforming people's rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles. Forty-two.",
+      "segments": [
+        {
+          "source": "人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展",
+          "initial": "Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles.",
+          "translation": "Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles. Rapid advances in artificial intelligence technologies are profoundly transforming people's lifestyles.",
+          "retry_attempted": false,
+          "retry_accepted": false,
+          "warnings": []
+        },
+        {
+          "source": "正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的生活方式人工智能技术的快速发展正在深刻改变人们的最终答案",
+          "initial": "The rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles is profoundly transforming people's rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles, and the rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles are profoundly transforming people's rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles.",
+          "translation": "The rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles is profoundly transforming people's rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles, and the rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles are profoundly transforming people's rapid development of artificial intelligence technologies that are profoundly transforming people's lifestyles.",
+          "retry_attempted": false,
+          "retry_accepted": false,
+          "warnings": []
+        },
+        {
+          "source": "是四十二",
+          "initial": "Forty-two.",
+          "translation": "Forty-two.",
+          "retry_attempted": false,
+          "retry_accepted": false,
+          "warnings": []
+        }
+      ],
+      "limitations": "Rule checks do not verify negation, factuality or overall translation quality.",
+      "backend": "CTranslate2",
+      "precision": "float32",
+      "num_beams": 6
+    }
+  }
+]

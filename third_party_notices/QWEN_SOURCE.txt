@@ -1,0 +1,4 @@
+Original model: https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct
+Used INT8 conversion: https://huggingface.co/jncraton/Qwen2.5-0.5B-Instruct-ct2-int8
+License declared: Apache-2.0. Model cards and artifact provenance are retained with local assets.
+Pinned download and checksum: experiments/setup_translation_fallback.py

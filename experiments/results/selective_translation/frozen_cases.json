@@ -1,0 +1,82 @@
+[
+  {
+    "split": "technical",
+    "source": "卷积层的步长设为2。",
+    "reference": "The stride of the convolutional layer is set to 2."
+  },
+  {
+    "split": "technical",
+    "source": "降低学习率有助于稳定训练。",
+    "reference": "Reducing the learning rate helps stabilize training."
+  },
+  {
+    "split": "technical",
+    "source": "由于过拟合，验证集上的损失开始上升。",
+    "reference": "Due to overfitting, the loss on the validation set starts to increase."
+  },
+  {
+    "split": "technical",
+    "source": "梯度下降用于更新模型参数。",
+    "reference": "Gradient descent is used to update model parameters."
+  },
+  {
+    "split": "technical",
+    "source": "特征图的宽度为32，高度为16。",
+    "reference": "The feature map is 32 units wide and 16 units high."
+  },
+  {
+    "split": "technical",
+    "source": "这不是一个分类问题，而是一个回归问题。",
+    "reference": "This is a regression problem, not a classification problem."
+  },
+  {
+    "split": "technical",
+    "source": "仅在置信度低于80%时请求人工复核。",
+    "reference": "Request human review only when confidence is below 80%."
+  },
+  {
+    "split": "technical",
+    "source": "系统不会将录音上传至服务器。",
+    "reference": "The system will not upload recordings to the server."
+  },
+  {
+    "split": "general",
+    "source": "请在明天上午九点前提交报告。",
+    "reference": "Please submit the report before nine tomorrow morning."
+  },
+  {
+    "split": "general",
+    "source": "这家餐馆周一不营业。",
+    "reference": "This restaurant is closed on Mondays."
+  },
+  {
+    "split": "general",
+    "source": "如果下雨，我们就取消这次旅行。",
+    "reference": "If it rains, we will cancel the trip."
+  },
+  {
+    "split": "general",
+    "source": "这台设备比旧型号更轻，但价格更高。",
+    "reference": "This device is lighter than the old model, but more expensive."
+  },
+  {
+    "split": "general",
+    "source": "请将文件保存在本地，而不是云端。",
+    "reference": "Please save the files locally rather than in the cloud."
+  },
+  {
+    "split": "general",
+    "source": "我们需要先确认地址，再安排送货。",
+    "reference": "We need to confirm the address before arranging delivery."
+  },
+  {
+    "split": "general",
+    "source": "他还没有完成任务。",
+    "reference": "He has not finished the task yet."
+  },
+  {
+    "split": "general",
+    "source": "退款将在三个工作日内到账。",
+    "reference": "The refund will arrive within three business days."
+  }
+]

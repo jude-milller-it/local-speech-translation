@@ -1,0 +1,25 @@
+
+# Local model/runtime assets and generated speech (download separately).
+__pycache__/
+*.pyc
+*.bak
+.idea/
+.DS_Store
+runtime/
+translator/ct2_*/
+translator/opus-mt-*/
+translator/nllb_600m_source/
+translator/qwen_05b_tokenizer/
+voice_to_word/*.pt
+audio_tts/tts_models/
+tts_out_audio/
+voiced_audio/
+mfcc_features/
+experiments/results/**/speech_input.wav
+experiments/results/bidirectional_small/
+.env
+.env.*
+*.pem
+*.key
+
+/outputs/

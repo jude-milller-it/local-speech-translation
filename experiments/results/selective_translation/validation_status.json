@@ -1,0 +1,22 @@
+{
+  "default_mode": "selective",
+  "unit_checks_passed": 40,
+  "development_inputs": 16,
+  "acceptance_inputs": 12,
+  "general_outputs_unchanged": 12,
+  "full_speech_input_seconds": 25.392020833333333,
+  "speech_stage_seconds": {
+    "asr_s": 46.57105359999696,
+    "translation_s": 3.5628427999909036,
+    "tts_s": 7.031893000006676
+  },
+  "no_training": true,
+  "fallback_model": "Qwen/Qwen2.5-0.5B-Instruct, third-party CT2 INT8 conversion",
+  "translation_device": "cpu",
+  "limitations": [
+    "Small AI-authored text sets, not independent human quality evaluation",
+    "Some difficult translations remain unresolved",
+    "No claim of original model training, novel decoding algorithm or publication",
+    "Whisper remains a substantial GPU/memory and latency cost"
+  ]
+}

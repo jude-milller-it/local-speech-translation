@@ -1,0 +1,4 @@
+Reverse scoring model: Helsinki-NLP/opus-mt-en-zh
+Source: https://huggingface.co/Helsinki-NLP/opus-mt-en-zh
+Model card declares Apache-2.0. Original model card is retained in translator/opus-mt-en-zh/README.md.
+Converted locally with CTranslate2 4.8.5, FP32. Target-language prefix: >>cmn_Hans<<.

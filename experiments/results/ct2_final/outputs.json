@@ -1,0 +1,940 @@
+[
+  {
+    "id": "t01",
+    "source": "我们用卷积神经网络检测图像中的裂缝。",
+    "reference": "We use a convolutional neural network to detect cracks in images.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "We use the curled neural network to detect the cracks in the image.",
+      "ct2_fp32": "We use the curled neural network to detect cracks in the image.",
+      "ct2_int8": "We're using the curled neural network to detect cracks in the image."
+    }
+  },
+  {
+    "id": "t02",
+    "source": "卷积层负责提取边缘和纹理信息。",
+    "reference": "The convolutional layer extracts edge and texture information.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "Volume layers are responsible for extracting edge and texture information.",
+      "ct2_fp32": "Volume layers are responsible for extracting edge and texture information.",
+      "ct2_int8": "Volume layers are responsible for extracting edge and texture information."
+    }
+  },
+  {
+    "id": "t03",
+    "source": "池化层将特征图的宽度从28减小到14。",
+    "reference": "The pooling layer reduces the width of the feature map from 28 to 14.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The pool layer reduces the width of the feature map from 28 to 14.",
+      "ct2_fp32": "The pool layer reduces the width of the feature map from 28 to 14.",
+      "ct2_int8": "The pool layer reduces the width of the feature map from 28 to 14."
+    }
+  },
+  {
+    "id": "t04",
+    "source": "一个全连接层根据提取的特征生成预测。",
+    "reference": "A fully connected layer generates predictions from the extracted features.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "An all-connection layer generates projections based on the characteristics extracted.",
+      "ct2_fp32": "An all-connection layer generates projections based on the characteristics extracted.",
+      "ct2_int8": "An all-connection layer generates projections based on the characteristics extracted."
+    }
+  },
+  {
+    "id": "t05",
+    "source": "学习率下降后，训练过程更加稳定。",
+    "reference": "The training process becomes more stable after the learning rate decreases.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The training process has become more stable as learning rates have declined.",
+      "ct2_fp32": "The training process has become more stable as learning rates have declined.",
+      "ct2_int8": "The training process has become more stable when learning rates have declined."
+    }
+  },
+  {
+    "id": "t06",
+    "source": "我们通过梯度下降逐步优化这些参数。",
+    "reference": "We gradually optimize these parameters through gradient descent.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "We have gradually optimized these parameters by decreasing gradients.",
+      "ct2_fp32": "We have gradually optimized these parameters by decreasing gradients.",
+      "ct2_int8": "We gradually optimize these parameters through a gradient decline."
+    }
+  },
+  {
+    "id": "t07",
+    "source": "过拟合使模型无法适应新的输入。",
+    "reference": "Overfitting prevents the model from adapting to new inputs.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The combination does not allow the model to adapt to the new input.",
+      "ct2_fp32": "The combination does not allow the model to adapt to the new input.",
+      "ct2_int8": "The combination does not allow the model to adapt to the new input."
+    }
+  },
+  {
+    "id": "t08",
+    "source": "训练集提供了模型学习所需的例子。",
+    "reference": "The training set provides the examples needed for the model to learn.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The training series provides examples needed for model learning.",
+      "ct2_fp32": "The training series provides examples needed for model learning.",
+      "ct2_int8": "The training series provides examples needed for model learning."
+    }
+  },
+  {
+    "id": "t09",
+    "source": "测试集必须与训练集分开保存。",
+    "reference": "The test set must be stored separately from the training set.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The test set must be kept separately from the training set.",
+      "ct2_fp32": "The test set must be kept separately from the training set.",
+      "ct2_int8": "The test set must be kept separately from the training set."
+    }
+  },
+  {
+    "id": "t10",
+    "source": "验证集用于选择最佳检查点。",
+    "reference": "The validation set is used to select the best checkpoint.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "Could not close temporary folder: %s",
+      "ct2_fp32": "Could not close temporary folder: %s",
+      "ct2_int8": "Could not close temporary folder: %s"
+    }
+  },
+  {
+    "id": "t11",
+    "source": "图像首先通过卷积层和池化层，再通过全连接层。",
+    "reference": "The image first passes through a convolutional layer and a pooling layer, and then through a fully connected layer.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The images are first through the roll and pool layer, and then through the whole connector layer.",
+      "ct2_fp32": "The images are first through the roll and pool layer, and then through the whole connector layer.",
+      "ct2_int8": "Images are first through the roll and pool layer and then through the full connection layer."
+    }
+  },
+  {
+    "id": "t12",
+    "source": "两个卷积神经网络分别处理彩色图片和灰度图片。",
+    "reference": "Two convolutional neural networks process color images and grayscale images respectively.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "Two volumes of neural networks handle coloured images and greyscale images, respectively.",
+      "ct2_fp32": "Two volumes of neural networks handle coloured images and greyscale images, respectively.",
+      "ct2_int8": "Two volumes of neural networks handle colour and greyscale images, respectively."
+    }
+  },
+  {
+    "id": "t13",
+    "source": "不要把验证集加入训练集。",
+    "reference": "Do not add the validation set to the training set.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "Do not add the test set to the training set.",
+      "ct2_fp32": "Do not add the test set to the training set.",
+      "ct2_int8": "Do not add the test set to the training set."
+    }
+  },
+  {
+    "id": "t14",
+    "source": "学习率是0.002，测试集有48个样本。",
+    "reference": "The learning rate is 0.002, and the test set contains 48 samples.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The study rate was 0.002 and the test set contained 48 samples.",
+      "ct2_fp32": "The study rate was 0.002 and the test set contained 48 samples.",
+      "ct2_int8": "The study rate was 0.002 and the test set contained 48 samples."
+    }
+  },
+  {
+    "id": "t15",
+    "source": "卷积神经网络不应该记住训练集中的每一张图片。",
+    "reference": "A convolutional neural network should not memorize every image in the training set.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The curly neural network should not remember every picture of training concentration.",
+      "ct2_fp32": "The curly neural network should not remember every picture of training concentration.",
+      "ct2_int8": "The curly neural network should not remember every picture of training concentration."
+    }
+  },
+  {
+    "id": "t16",
+    "source": "通过减小学习率，我们可以缓解训练过程的震荡。",
+    "reference": "By reducing the learning rate, we can reduce oscillations during training.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "By reducing learning rates, we can mitigate the shock of the training process.",
+      "ct2_fp32": "By reducing learning rates, we can mitigate the shock of the training process.",
+      "ct2_int8": "By reducing learning rates, we can mitigate the shock of the training process."
+    }
+  },
+  {
+    "id": "t17",
+    "source": "上一层是卷积层，下一层是池化层。",
+    "reference": "The previous layer is a convolutional layer, and the next layer is a pooling layer.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The first floor is a roll layer and the next level is a pool layer.",
+      "ct2_fp32": "The first floor is a roll layer and the next level is a pool layer.",
+      "ct2_int8": "The first floor is a roll layer and the next level is a pool layer."
+    }
+  },
+  {
+    "id": "t18",
+    "source": "过拟合和欠拟合是两种不同的问题。",
+    "reference": "Overfitting and underfitting are two different problems.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "Cross-cutting and under-conforming are two different issues.",
+      "ct2_fp32": "Cross-cutting and under-conforming are two different issues.",
+      "ct2_int8": "Cross-cutting and under-conforming are two different issues."
+    }
+  },
+  {
+    "id": "t19",
+    "source": "这里的pooling layer是池化层的英文名称。",
+    "reference": "Here, pooling layer is the English name for the Chinese term 池化层.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The pool player here is the English name for the pool.",
+      "ct2_fp32": "The pool player here is the English name for the pool.",
+      "ct2_int8": "The pool player here is the English name for the pool."
+    }
+  },
+  {
+    "id": "t20",
+    "source": "实验采用两个全连接层，而不是三个。",
+    "reference": "The experiment uses two fully connected layers rather than three.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The experiment uses two full-connection layers instead of three.",
+      "ct2_fp32": "The experiment uses two full-connection layers instead of three.",
+      "ct2_int8": "The experiment uses two full-connection layers instead of three."
+    }
+  },
+  {
+    "id": "t21",
+    "source": "两组实验使用相同的训练集，但使用不同的学习率。",
+    "reference": "The two groups of experiments use the same training set but different learning rates.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The two sets of experiments use the same training set, but different learning rates are used.",
+      "ct2_fp32": "The two sets of experiments use the same training set, but different learning rates are used.",
+      "ct2_int8": "The two groups of experiments use the same training set, but different learning rates are used."
+    }
+  },
+  {
+    "id": "t22",
+    "source": "池化层不改变输出的通道数量。",
+    "reference": "The pooling layer does not change the number of output channels.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "The pool layer does not change the number of channels for output.",
+      "ct2_fp32": "The pool layer does not change the number of channels for output.",
+      "ct2_int8": "The pool layer does not change the number of channels for output."
+    }
+  },
+  {
+    "id": "t23",
+    "source": "一张图片经过卷积神经网络后被分为四个类别。",
+    "reference": "An image is classified into four categories after passing through a convolutional neural network.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "One picture was rolled through the neural network and divided into four categories.",
+      "ct2_fp32": "One picture was rolled through the neural network and divided into four categories.",
+      "ct2_int8": "One picture was rolled through the neural network and divided into four categories."
+    }
+  },
+  {
+    "id": "t24",
+    "source": "梯度下降并不保证找到全局最优解。",
+    "reference": "Gradient descent does not guarantee finding a global optimum.",
+    "split": "technical_diagnostic",
+    "repeats": 3,
+    "outputs": {
+      "torch_fp32": "A decrease in the gradient does not guarantee the best solution for the global picture.",
+      "ct2_fp32": "A decrease in the gradient does not guarantee the best solution for the global picture.",
+      "ct2_int8": "A decrease in the gradient does not guarantee the best solution for the global picture."
+    }
+  },
+  {
+    "id": "flores_0003",
+    "source": "和其他一些专家一样，他对糖尿病能否治愈持怀疑态度。他指出，这些发现与已患有 1 型糖尿病的人无关。",
+    "reference": "Like some other experts, he is skeptical about whether diabetes can be cured, noting that these findings have no relevance to people who already have Type 1 diabetes.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 3,
+    "outputs": {
+      "torch_fp32": "Like other experts, he was sceptical about the cure of diabetes. He noted that the findings had nothing to do with persons already suffering from type 1 diabetes.",
+      "ct2_fp32": "Like other experts, he was sceptical about the cure of diabetes. He noted that the findings had nothing to do with persons already suffering from type 1 diabetes.",
+      "ct2_int8": "Like other experts, he was sceptical about the cure of diabetes. He noted that the findings had nothing to do with persons already suffering from type 1 diabetes."
+    }
+  },
+  {
+    "id": "flores_0006",
+    "source": "此前，铃声 (Ring) 公司 CEO 杰米·西米诺夫曾表示，公司成立之初，他在位于车库的工作室里是听不到门铃响声的。",
+    "reference": "Previously, Ring's CEO, Jamie Siminoff, remarked the company started when his doorbell wasn't audible from his shop in his garage.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 6,
+    "outputs": {
+      "torch_fp32": "Previously, the CEO (Ring) company, Jamie Siminov, had stated that he could not hear the doorbell in his studio in the garage when the company was founded.",
+      "ct2_fp32": "Previously, the CEO (Ring) company, Jamie Siminov, had stated that he could not hear the doorbell in his studio in the garage when the company was founded.",
+      "ct2_int8": "Previously, the CEO (Ring) company, Jamie Siminov, had indicated that he could not hear the doorbell in his studio in the garage when the company was founded."
+    }
+  },
+  {
+    "id": "flores_0008",
+    "source": "西米诺夫说，2013 年他在《创智赢家》节目中露面后，公司的销售额大增，当时节目组拒绝向这家初创公司投资。",
+    "reference": "Siminoff said sales boosted after his 2013 appearance in a Shark Tank episode where the show panel declined funding the startup.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 8,
+    "outputs": {
+      "torch_fp32": "Siminov stated that after his appearance on the Creative Winner programme in 2013, the company ' s sales increased significantly, when the group refused to invest in the start-up company.",
+      "ct2_fp32": "Siminov stated that after his appearance on the Creative Winner programme in 2013, the company ' s sales increased significantly, when the group refused to invest in the start-up company.",
+      "ct2_int8": "Siminov stated that after his appearance on the Creative Winner programme in 2013, the company ' s sales increased significantly when the group refused to invest in the start-up company."
+    }
+  },
+  {
+    "id": "flores_0012",
+    "source": "一种名为 ZMapp 的“抗体鸡尾酒”（多抗体联合）最初有望在该领域发挥作用，但正式研究表明，它在预防死亡方面的效果有些不尽人意。",
+    "reference": "One antibody cocktail, ZMapp, initially showed promise in the field, but formal studies indicated it had less benefit than sought in preventing death.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 12,
+    "outputs": {
+      "torch_fp32": "An antibody cocktail, known as ZMapp, was initially expected to play a role in this area, but official studies have shown that its effectiveness in preventing death is somewhat unsatisfactory.",
+      "ct2_fp32": "An antibody cocktail, known as ZMapp, was initially expected to play a role in this area, but official studies have shown that its effectiveness in preventing death is somewhat unsatisfactory.",
+      "ct2_int8": "An antibody cocktail, known as ZMapp, was initially expected to play a role in this area, but official research has shown that its effectiveness in preventing death is somewhat unsatisfactory."
+    }
+  },
+  {
+    "id": "flores_0026",
+    "source": "特朗普与土耳其总统雷杰普·塔伊普·埃尔多安（Recep Tayyip Erdoğan）通话后发表了声明。",
+    "reference": "The announcement was made after Trump had a phone conversation with Turkish President Recep Tayyip Erdoğan.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 26,
+    "outputs": {
+      "torch_fp32": "Trump made a statement following a call with the President of Turkey, Recep Tayyip Erdoğan.",
+      "ct2_fp32": "Trump made a statement following a call with the President of Turkey, Recep Tayyip Erdoğan.",
+      "ct2_int8": "Trump made a statement after calling the President of Turkey, Recep Tayyip Erdoğan."
+    }
+  },
+  {
+    "id": "flores_0050",
+    "source": "他补充道，“然而，他们不应该被要求承担超出其发展阶段、责任和能力范围的义务。”",
+    "reference": "He added that \"they should not, however, be asked to take on obligations that go beyond their development stage, responsibility and capabilities.\"",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 50,
+    "outputs": {
+      "torch_fp32": "He added that “they should not, however, be called upon to assume obligations beyond their stage of development, responsibilities and capacities”.",
+      "ct2_fp32": "He added that “they should not, however, be called upon to assume obligations beyond their stage of development, responsibilities and capacities”.",
+      "ct2_int8": "He added that “they should not, however, be called upon to assume obligations beyond their stage of development, responsibilities and capacities”."
+    }
+  },
+  {
+    "id": "flores_0076",
+    "source": "最新公报显示，海平面的读数表明已经发生过海啸。帕果帕果和纽埃岛附近确切记录了海啸活动的发生。",
+    "reference": "According to the latest bulletin, sea level readings indicated a tsunami was generated. There was some definite tsunami activity recorded near Pago Pago and Niue.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 76,
+    "outputs": {
+      "torch_fp32": "According to the latest communiqué, sea level readings indicate that tsunamis have occurred. The tsunami activity was accurately recorded in the vicinity of Pago Pago and Niue.",
+      "ct2_fp32": "According to the latest communiqué, sea level readings indicate that tsunamis have occurred. The tsunami activity was accurately recorded near Pago Pago and Niue.",
+      "ct2_int8": "According to the latest communiqué, sea level readings indicate that tsunamis have occurred. The tsunami activity was accurately recorded near Pago Pago and Niue."
+    }
+  },
+  {
+    "id": "flores_0082",
+    "source": "国家飓风中心 (NHC) 表示，目前“杰瑞”对陆地没有威胁。",
+    "reference": "The National Hurricane Center (NHC) says that at this point Jerry poses no threat to land.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 82,
+    "outputs": {
+      "torch_fp32": "The National Hurricane Centre (NHC) states that there is currently no threat to land from “Jerry”.",
+      "ct2_fp32": "The National Hurricane Centre (NHC) states that there is currently no threat to land from “Jerry”.",
+      "ct2_int8": "The National Hurricane Centre (NHC) states that there is currently no threat to land from “Jerry”."
+    }
+  },
+  {
+    "id": "flores_0093",
+    "source": "该理论认为，一个星系周围的大多数暗物质都处在星系周围的某种光环中，由许多小粒子组成。",
+    "reference": "This theory says that most dark matter around a galaxy is located around a galaxy in a kind of halo, and is made of lots of small particles.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 93,
+    "outputs": {
+      "torch_fp32": "The theory suggests that most dark matter around a galaxy is in some halo around the galaxy and consists of many small particles.",
+      "ct2_fp32": "The theory suggests that most dark matter around a galaxy is in some halo around the galaxy and consists of many small particles.",
+      "ct2_int8": "The theory suggests that most dark matter around a galaxy is in some halo around the galaxy and consists of many small particles."
+    }
+  },
+  {
+    "id": "flores_0118",
+    "source": "1956 年，斯拉尼亚（Słania）搬到了瑞典。三年后他开始在瑞典邮局上班，成为首席邮票雕刻师。",
+    "reference": "In 1956 Słania moved to Sweden, where three years later he began work for the Swedish Post Office and became their chief engraver.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 118,
+    "outputs": {
+      "torch_fp32": "In 1956, Snyania moved to Sweden. Three years later, he started working at the Swedish Post Office and became the chief stamp sculptor.",
+      "ct2_fp32": "In 1956, Snyania moved to Sweden. Three years later, he started working at the Swedish Post Office and became the chief stamp sculptor.",
+      "ct2_int8": "Snyania moved to Sweden in 1956. Three years later, he started working at the Swedish Post Office and became the chief stamp sculptor."
+    }
+  },
+  {
+    "id": "flores_0139",
+    "source": "这种沉积物是形成沙洲和海滩的必要条件，而沙洲和海滩是野生动物的栖息地。",
+    "reference": "This sediment was necessary for creating sandbars and beaches, which served as wildlife habitats.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 139,
+    "outputs": {
+      "torch_fp32": "This sediment is a necessary condition for the formation of sands and beaches, which are habitats for wildlife.",
+      "ct2_fp32": "This sediment is a necessary condition for the formation of sands and beaches, which are habitats for wildlife.",
+      "ct2_int8": "This sediment is a necessary condition for the formation of sands and beaches, which are habitats for wildlife."
+    }
+  },
+  {
+    "id": "flores_0143",
+    "source": "尽管那里没有海啸的威胁，当地居民却感到坐立不安，纷纷结束生意及离开家园。",
+    "reference": "Despite there being no tsunami threat, residents started to panic and began to leave their businesses and homes.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 143,
+    "outputs": {
+      "torch_fp32": "Despite the absence of the tsunami threat, the local population was restless, ending their business and leaving their homes.",
+      "ct2_fp32": "Despite the absence of the tsunami threat, the local population was restless, ending their business and leaving their homes.",
+      "ct2_int8": "Although there was no tsunami threat, the local population was restless, closing business and leaving their homes."
+    }
+  },
+  {
+    "id": "flores_0179",
+    "source": "跳羚队以五连败收官。",
+    "reference": "For the Springboks, it ended a five-match losing streak.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 179,
+    "outputs": {
+      "torch_fp32": "The bouncing herds will be defeated by five companies.",
+      "ct2_fp32": "The bouncing herds will be defeated by five companies.",
+      "ct2_int8": "The jumpers have lost their officers in five rows."
+    }
+  },
+  {
+    "id": "flores_0210",
+    "source": "汉密尔顿（Hamilton）确认，霍华德大学医院收治的病人情况稳定。",
+    "reference": "Hamilton confirmed Howard University Hospital admitted the patient in stable condition.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 210,
+    "outputs": {
+      "torch_fp32": "Hamilton confirmed that patients admitted to Howard University Hospital were stable.",
+      "ct2_fp32": "Hamilton confirmed that patients admitted to Howard University Hospital were stable.",
+      "ct2_int8": "Hamilton confirmed that patients admitted to Howard University Hospital were stable."
+    }
+  },
+  {
+    "id": "flores_0225",
+    "source": "空中铁匠乐队已经取消了他们巡回演唱会的剩余场次。",
+    "reference": "Aerosmith have cancelled their remaining concerts on their tour.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 225,
+    "outputs": {
+      "torch_fp32": "The Blacksmiths have cancelled the rest of their tour concerts.",
+      "ct2_fp32": "The Blacksmiths have cancelled the rest of their tour concerts.",
+      "ct2_int8": "The Blacksmiths have cancelled the rest of their tour concerts."
+    }
+  },
+  {
+    "id": "flores_0243",
+    "source": "根据新闻发布会的记录文字，他曾说过：”她很可爱，唱得也很好。”",
+    "reference": "\"She’s very cute and sings quite well, too,\" he said according to a transcript of the news conference.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 243,
+    "outputs": {
+      "torch_fp32": "According to the transcript of the press conference, he said, \"She's cute and she sings well.\"",
+      "ct2_fp32": "According to the transcript of the press conference, he said, \"She's cute and she sings well.\"",
+      "ct2_int8": "According to the transcript of the press conference, he said, \"She's cute and she sings well.\""
+    }
+  },
+  {
+    "id": "flores_0246",
+    "source": "然而，这些泡沫被认为并没有对航天飞机造成任何损坏。",
+    "reference": "However, they are not thought to have caused any damage to the shuttle.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 246,
+    "outputs": {
+      "torch_fp32": "However, these foams are not considered to have caused any damage to the Space Shuttle.",
+      "ct2_fp32": "However, these foams are not considered to have caused any damage to the Space Shuttle.",
+      "ct2_int8": "However, these foams are not considered to have caused any damage to the Space Shuttle."
+    }
+  },
+  {
+    "id": "flores_0253",
+    "source": "一些道路受到了损坏，受影响地区的铁路服务中断，石川（Ishikawa）县的能登机场仍然处于关闭状态。",
+    "reference": "Some roads have been damaged, railway service interrupted in the affected areas, and the Noto Airport in Ishikawa prefecture remains closed.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 253,
+    "outputs": {
+      "torch_fp32": "A number of roads were damaged, railway services in the affected areas were disrupted and the airport of Eden in Ishikawa district remained closed.",
+      "ct2_fp32": "A number of roads were damaged, railway services in the affected areas were disrupted and the airport of Eden in Ishikawa district remained closed.",
+      "ct2_int8": "A number of roads were damaged, railway services in the affected areas were disrupted and the airport of Eden in Ishikawa district remained closed."
+    }
+  },
+  {
+    "id": "flores_0286",
+    "source": "他随后被转送到剑桥的阿登布鲁克医院。",
+    "reference": "He was subsequently relocated to Addenbrooke's Hospital in Cambridge.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 286,
+    "outputs": {
+      "torch_fp32": "He was then transferred to Adenbrook Hospital in Cambridge.",
+      "ct2_fp32": "He was then transferred to Adenbrook Hospital in Cambridge.",
+      "ct2_int8": "He was then transferred to Adenbrook Hospital in Cambridge."
+    }
+  },
+  {
+    "id": "flores_0292",
+    "source": "据透露，这份文件将提及边界争端，巴勒斯坦希望以1967年中东战争前的边界为基础。",
+    "reference": "The document, according to the leak, will refer to the borders dispute, which Palestine wants based on the borders before the 1967 Mideast War.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 292,
+    "outputs": {
+      "torch_fp32": "It was revealed that the document would refer to the border dispute and that Palestine wished to build on the pre-1967 borders in the Middle East.",
+      "ct2_fp32": "It was revealed that the document would refer to the border dispute and that Palestine wished to build on the pre-1967 borders in the Middle East.",
+      "ct2_int8": "It was revealed that the document would refer to the border dispute and that Palestine wished to build on the pre-1967 borders of the Middle East."
+    }
+  },
+  {
+    "id": "flores_0323",
+    "source": "在 2010 年联邦大选之前曾对 1,400 名受访者做过调查，受访者中反对澳大利亚成为共和国的人数自 2008 年以来增长了 8%。",
+    "reference": "Out of 1,400 people polled prior to the 2010 federal election, those who oppose Australia becoming a republic grew by 8 per cent since 2008.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 323,
+    "outputs": {
+      "torch_fp32": "A survey of 1,400 respondents was conducted prior to the 2010 federal elections, and the number of respondents opposing Australia as a republic has increased by 8 per cent since 2008.",
+      "ct2_fp32": "A survey of 1,400 respondents was conducted prior to the 2010 federal elections, and the number of respondents opposing Australia as a republic has increased by 8 per cent since 2008.",
+      "ct2_int8": "A survey of 1,400 respondents was conducted prior to the 2010 federal elections, and the number of respondents opposed to Australia becoming a republic increased by 8 per cent since 2008."
+    }
+  },
+  {
+    "id": "flores_0340",
+    "source": "周四，一份发表于《科学》杂志的研究报告称，一种新的鸟类在厄瓜多尔加拉帕戈斯群岛形成。",
+    "reference": "A study published on Thursday in the journal Science reported on formation of a new bird species on the Ecuadorean Galápagos Islands.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 340,
+    "outputs": {
+      "torch_fp32": "On Thursday, a study published in Science magazine reported that a new bird was formed in the Galapagos Islands of Ecuador.",
+      "ct2_fp32": "On Thursday, a study published in Science magazine reported that a new bird was formed in the Galapagos Islands of Ecuador.",
+      "ct2_int8": "On Thursday, a study published in Science magazine stated that a new bird had been formed in the Galapagos Islands of Ecuador."
+    }
+  },
+  {
+    "id": "flores_0355",
+    "source": "太空中的卫星接到电话后，几乎是立刻将其反射回去。",
+    "reference": "The satellite in space gets the call and then reflects it back down, almost instantly.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 355,
+    "outputs": {
+      "torch_fp32": "Satellites in space received telephone calls and almost immediately reflected them back.",
+      "ct2_fp32": "Satellites in space received telephone calls and almost immediately reflected them back.",
+      "ct2_int8": "Satellites in space received telephone calls and almost immediately reflected them back."
+    }
+  },
+  {
+    "id": "flores_0424",
+    "source": "西方对台湾的了解可以追溯到 15 世纪。当时路过的欧洲水手将该岛命名为“福尔摩沙岛”(Ilha Formosa)，意思是美丽的岛屿。",
+    "reference": "Taiwan beginning start way back in 15th century where European sailors passing by record the island’s name as Ilha Formosa, or beautiful island.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 424,
+    "outputs": {
+      "torch_fp32": "Western knowledge of Taiwan dates back to the 15th century. The passing European sailor named the island Ilha Formosa, meaning a beautiful island.",
+      "ct2_fp32": "Western knowledge of Taiwan dates back to the 15th century. The passing European sailor named the island Ilha Formosa, meaning a beautiful island.",
+      "ct2_int8": "Western knowledge of Taiwan dates back to the 15th century. The passing European sailor named the island Ilha Formosa, meaning a beautiful island."
+    }
+  },
+  {
+    "id": "flores_0502",
+    "source": "让亚文化变得与众不同的特质，可能是语言、美学、宗教、政治、性别、地理或多种因素的组合。",
+    "reference": "The qualities that determine a subculture as distinct may be linguistic, aesthetic, religious, political, sexual, geographical, or a combination of factors.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 502,
+    "outputs": {
+      "torch_fp32": "The characteristics that make subculture distinct may be a combination of language, aesthetics, religion, politics, gender, geography or multiple factors.",
+      "ct2_fp32": "The characteristics that make subculture distinct may be a combination of language, aesthetics, religion, politics, gender, geography or multiple factors.",
+      "ct2_int8": "The characteristics that make subculture distinct may be a combination of language, aesthetics, religion, politics, gender, geography or multiple factors."
+    }
+  },
+  {
+    "id": "flores_0524",
+    "source": "奥利弗·萨克斯 (Oliver Sacks) 在他的论文《总统的演讲》中指出，那些因为脑损伤而无法理解语言的人仍然能够准确地判断说话人是否有诚意。",
+    "reference": "Oliver Sacks, in his paper The President's Speech, indicated how people who are unable to understand speech because of brain damage are nevertheless able to assess sincerity accurately.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 524,
+    "outputs": {
+      "torch_fp32": "Oliver Sacks pointed out in his paper, The President's Speech, that those who could not understand language because of brain damage were still able to judge accurately the sincerity of the person who spoke.",
+      "ct2_fp32": "Oliver Sacks pointed out in his paper, The President's Speech, that those who could not understand language because of brain damage were still able to judge accurately the sincerity of the person who spoke.",
+      "ct2_int8": "Oliver Sacks pointed out in his paper, The President's Speech, that those who could not understand the language because of brain damage were still able to judge accurately the sincerity of the person who spoke."
+    }
+  },
+  {
+    "id": "flores_0528",
+    "source": "由于分离和重组，变异在每一代的两个库之间来回变动。",
+    "reference": "Segregation and recombination shuffle variation back and forth between the two pools with each generation.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 528,
+    "outputs": {
+      "torch_fp32": "As a result of separation and reorganization, variations vary from generation to generation between two banks.",
+      "ct2_fp32": "As a result of separation and reorganization, variations vary from generation to generation between two banks.",
+      "ct2_int8": "As a result of separation and reorganization, variations vary from generation to generation between two banks."
+    }
+  },
+  {
+    "id": "flores_0538",
+    "source": "一个人内心平静的程度与身体和精神的紧张程度是相反的。",
+    "reference": "The amount of inner peace a person possesses correlates oppositely to the amount of tension in one’s body and spirit.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 538,
+    "outputs": {
+      "torch_fp32": "The degree of calm within a person is contrary to the level of physical and mental tension.",
+      "ct2_fp32": "The degree of calm within a person is contrary to the level of physical and mental tension.",
+      "ct2_int8": "The degree of calm within a person is contrary to the level of physical and mental tension."
+    }
+  },
+  {
+    "id": "flores_0597",
+    "source": "研究者观察到的许多生理节律和行为节律很大程度上往往取决于通过生物钟而产生的内生周期及其存在。",
+    "reference": "Many observed rhythms in physiology and behavior often crucially depend on the presence of endogenous cycles and their production through biological clocks.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 597,
+    "outputs": {
+      "torch_fp32": "Many of the physiological and behavioural rhythms observed by researchers often depend, to a large extent, on the internal life cycles and their existence through biological bells.",
+      "ct2_fp32": "Many of the physiological and behavioural rhythms observed by researchers often depend, to a large extent, on the internal life cycles and their existence through biological bells.",
+      "ct2_int8": "Many of the physiological and behavioural rhythms observed by researchers often depend to a large extent on the inner life cycles and their presence through biological bells."
+    }
+  },
+  {
+    "id": "flores_0602",
+    "source": "他们做了两个实验，一个是用放射性磷标记噬菌体的 DNA，一个是用放射性硫标记噬菌体的蛋白质。",
+    "reference": "They did two experiments marking either the DNA in the phage with a radioactive phosphorus or the protein of the phage with radioactive sulfur.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 602,
+    "outputs": {
+      "torch_fp32": "They did two experiments, one with the DNA of the phosphorus and one with the protein of the venom.",
+      "ct2_fp32": "They did two experiments, one with DNA from radiophosphorous and the other with protein from radioactive sulphur.",
+      "ct2_int8": "They did two experiments, one DNA with radiophosphorus and the other protein with radioactive sulphur."
+    }
+  },
+  {
+    "id": "flores_0642",
+    "source": "宇宙中的一切都由物质构成，而所有的物质都由被称为原子的微小粒子组成。",
+    "reference": "Everything in the Universe is made of matter. All matter is made of tiny particles called atoms.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 642,
+    "outputs": {
+      "torch_fp32": "Everything in the universe is made up of matter, all of which is made up of tiny particles known as atoms.",
+      "ct2_fp32": "Everything in the universe is made up of matter, all of which is made up of tiny particles known as atoms.",
+      "ct2_int8": "Everything in the universe consists of matter, all of which is made up of microparticles known as atoms."
+    }
+  },
+  {
+    "id": "flores_0674",
+    "source": "神经生物学数据为认知研究的理论方法提供了物理证据。因此，它缩小了研究范围，并使研究更加精确。",
+    "reference": "Neurobiological data provide physical evidence for a theoretical approach to the investigation of cognition. Therefore it narrows the research area and makes it much more exact.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 674,
+    "outputs": {
+      "torch_fp32": "Neurobiology data provide physical evidence of theoretical methods of cognitive research. It has therefore narrowed the scope of the study and made it more precise.",
+      "ct2_fp32": "Neurobiology data provide physical evidence of theoretical methods of cognitive research. It has therefore narrowed the scope of the study and made it more precise.",
+      "ct2_int8": "Neurobiology data provide physical evidence of theoretical methods of cognitive research. It has therefore reduced the scope of the study and made it more precise."
+    }
+  },
+  {
+    "id": "flores_0696",
+    "source": "再往北的广袤地区人烟稀少，有些地方是杳无人烟的荒野。",
+    "reference": "Large areas further north are quite sparsely populated and some is nearly uninhabited wilderness.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 696,
+    "outputs": {
+      "torch_fp32": "The vast areas to the north are sparsely populated, and some are deserted.",
+      "ct2_fp32": "The vast areas to the north are sparsely populated, and some are deserted.",
+      "ct2_int8": "The vast areas to the north are sparsely populated, and some are deserted."
+    }
+  },
+  {
+    "id": "flores_0706",
+    "source": "女性应该意识到文化差异可能会导致她们所认为的骚扰行为；而且被人尾随、抓胳膊等情况并不少见。",
+    "reference": "Women should realize that cultural differences may result in what they would consider harassment and it is not uncommon to be followed, grabbed by the arm, etc.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 706,
+    "outputs": {
+      "torch_fp32": "Women should be aware that cultural differences may lead to what they perceive as harassment, and it is not uncommon for them to be followed, grabbed, etc.",
+      "ct2_fp32": "Women should be aware that cultural differences may lead to what they perceive as harassment, and it is not uncommon for them to be followed, grabbed, etc.",
+      "ct2_int8": "Women should be aware that cultural differences may lead to what they consider to be harassment, and it is not uncommon for them to be followed and their arms grabbed."
+    }
+  },
+  {
+    "id": "flores_0719",
+    "source": "今天，虽然廷巴克图的名声使之成为旅游胜地，而且有一个机场，但这是一个贫穷的城镇。",
+    "reference": "Today, Timbuktu is an impoverished town, although its reputation makes it a tourist attraction, and it has an airport.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 719,
+    "outputs": {
+      "torch_fp32": "Today, although Timbuktu's reputation has made it a tourist destination and there is an airport, it is a poor town.",
+      "ct2_fp32": "Today, although Timbuktu's reputation has made it a tourist destination and there is an airport, it is a poor town.",
+      "ct2_int8": "Today, although Timbuktu's reputation has made it a tourist destination and there is an airport, it is a poor town."
+    }
+  },
+  {
+    "id": "flores_0720",
+    "source": "1990 年，由于沙漠的威胁，它被列入了濒危世界遗产名录。",
+    "reference": "In 1990, it was added to the list of world heritage sites in danger, due to the threat of desert sands.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 720,
+    "outputs": {
+      "torch_fp32": "In 1990, due to the threat of deserts, it was placed on the List of Endangered World Heritage Sites.",
+      "ct2_fp32": "In 1990, due to the threat of deserts, it was placed on the List of World Heritage in Distress.",
+      "ct2_int8": "In 1990, due to the threat of deserts, it was placed on the List of World Heritage in Distress."
+    }
+  },
+  {
+    "id": "flores_0741",
+    "source": "要前往附近地方，如帕罗 (Nu 150) 和普那卡 (Nu 200)，共享出租车是一种快捷舒适的方式。",
+    "reference": "Shared taxis are a quick and comfortable means to travel to nearby places, such as Paro (Nu 150) and Punakha (Nu 200).",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 741,
+    "outputs": {
+      "torch_fp32": "To travel to nearby locations such as Nu 150 and Pu 200, sharing taxis is a quick and comfortable way.",
+      "ct2_fp32": "To travel to nearby locations such as Nu 150 and Pu 200, sharing taxis is a quick and comfortable way.",
+      "ct2_int8": "To go to nearby locations such as Nu 150 and Pu 200, sharing taxis is a quick and comfortable way."
+    }
+  },
+  {
+    "id": "flores_0757",
+    "source": "英镑一般在岛上所有地方都通用，斯坦利境内也往往可以用信用卡和美元付款。",
+    "reference": "British pounds will generally be accepted anywhere in the islands and within Stanley credit cards and United States dollars are also often accepted.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 757,
+    "outputs": {
+      "torch_fp32": "The pound sterling is generally common everywhere on the island, and payments can often be made by credit cards and in United States dollars in Stanley.",
+      "ct2_fp32": "The pound sterling is generally common everywhere on the island, and payments can often be made by credit cards and in United States dollars in Stanley.",
+      "ct2_int8": "The pound sterling is generally available everywhere on the island, and payments can often be made in Stanley by credit cards and in United States dollars."
+    }
+  },
+  {
+    "id": "flores_0803",
+    "source": "任何在高纬度地区开车或翻越山口的人，都应该考虑到可能遭遇下雪、结冰或冻结温度的情况。",
+    "reference": "Anyone who's going to drive at high latitudes or over mountain passes should consider the possibility of snow, ice, or freezing temperatures.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 803,
+    "outputs": {
+      "torch_fp32": "Any person driving or crossing a mountain point at high latitudes should take into account the possibility of snowfalls, ice freezes or freezes of temperature.",
+      "ct2_fp32": "Any person driving or crossing a mountain point at high latitudes should take into account possible snowfalls, ice freezes or freezes of temperature.",
+      "ct2_int8": "Anyone driving at high latitudes or crossing a mountain point should take into account the possibility of snowfalls, ice freezes or freezes of temperature."
+    }
+  },
+  {
+    "id": "flores_0825",
+    "source": "害虫会破坏食物，引起刺激性反应，在更严重的情况下会引起过敏反应，传播毒液或传染病。",
+    "reference": "Pests can spoil food, cause irritation, or in a worse case cause allergic reactions, spread venom, or transmit infections.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 825,
+    "outputs": {
+      "torch_fp32": "Pests destroy food, cause irritant reactions, cause allergies in more serious cases, and spread venoms or infectious diseases.",
+      "ct2_fp32": "Pests destroy food, cause irritant reactions, cause allergies in more serious cases, and spread venoms or infectious diseases.",
+      "ct2_int8": "Pests destroy food, cause irritant reactions, cause allergies in more serious cases, and spread venoms or infectious diseases."
+    }
+  },
+  {
+    "id": "flores_0865",
+    "source": "驯鹿饲养是萨米人的一项重要生计。围绕该行业的文化对许多以其他职业为生的人也很重要。",
+    "reference": "Reindeer husbandry is an important livelihood among the Sámi and the culture surrounding the trade is important also for many with other professions.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 865,
+    "outputs": {
+      "torch_fp32": "Reindeer breeding is an important livelihood for the Sámi. Culture around the industry is also important for many people who live in other occupations.",
+      "ct2_fp32": "Reindeer breeding is an important livelihood for the Sámi. Culture around the industry is also important for many people who live in other occupations.",
+      "ct2_int8": "Reindeer breeding is an important livelihood for the Sámi. Culture around the industry is also important for many people who live in other occupations."
+    }
+  },
+  {
+    "id": "flores_0881",
+    "source": "这门课程通常会涵盖在此讨论到的所有问题，经常会以实战经验的方式加以深入。",
+    "reference": "A course will normally cover all the issues discussed here in far greater detail, usually with practical experience.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 881,
+    "outputs": {
+      "torch_fp32": "This course usually covers all the issues discussed here and is often in-depth in the form of practical experience.",
+      "ct2_fp32": "This course usually covers all the issues discussed here and is often in-depth in the form of practical experience.",
+      "ct2_int8": "This course usually covers all the issues discussed here and is often in-depth in the form of practical experience."
+    }
+  },
+  {
+    "id": "flores_0910",
+    "source": "在手机信号覆盖不到的偏远地区，卫星电话可能是你的唯一选择。",
+    "reference": "In remote locations, without cell phone coverage, a satellite phone may be your only option.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 910,
+    "outputs": {
+      "torch_fp32": "Satellite phones may be your only option in remote areas where cellular signals cannot be reached.",
+      "ct2_fp32": "Satellite phones may be your only option in remote areas where cellular signals cannot be reached.",
+      "ct2_int8": "Satellite phones may be your only option in remote areas where cell phone signals cannot be reached."
+    }
+  },
+  {
+    "id": "flores_0913",
+    "source": "你当地的电话服务提供商应该能够提供关于连接到这项服务的详细信息。",
+    "reference": "Your local telephone service provider should be able to give more information about connecting to this service.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 913,
+    "outputs": {
+      "torch_fp32": "Your local telephone service provider should be able to provide detailed information on connections to this service.",
+      "ct2_fp32": "Your local telephone service provider should be able to provide detailed information on connections to this service.",
+      "ct2_int8": "Your local telephone service provider should be able to provide detailed information on connections to this service."
+    }
+  },
+  {
+    "id": "flores_0922",
+    "source": "挪威、瑞典和新西兰也有类似的情况，但在其他方面很是独特（例如，在荷兰，这个数字是一比四十）。",
+    "reference": "This is matched by Norway, Sweden and New Zealand, but otherwise quite unique (e.g. in the Netherlands the figure is one to forty).",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 922,
+    "outputs": {
+      "torch_fp32": "A similar situation exists in Norway, Sweden and New Zealand, but in other respects it is unique (for example, in the Netherlands, the figure is one to forty).",
+      "ct2_fp32": "A similar situation exists in Norway, Sweden and New Zealand, but in other respects it is unique (for example, in the Netherlands, the figure is one to forty).",
+      "ct2_int8": "A similar situation exists in Norway, Sweden and New Zealand, but in other respects it is unique (for example, in the Netherlands, the figure is one to forty)."
+    }
+  },
+  {
+    "id": "flores_0937",
+    "source": "航空公司非常清楚，有一些核心乘客愿花高价获得快速、舒适出行的特权，因此航空公司会相应地收取费用。",
+    "reference": "Airlines know well that there is a certain core group of flyers who are willing to pay top dollar for the privilege of getting somewhere fast and in comfort, and charge accordingly.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 937,
+    "outputs": {
+      "torch_fp32": "Airlines are well aware that some of the core passengers are willing to spend high prices on the privilege of moving quickly and comfortably, so that they will charge a corresponding fee.",
+      "ct2_fp32": "Airlines are well aware that some of the core passengers are willing to spend high prices on the privilege of moving quickly and comfortably, so that they will charge a corresponding fee.",
+      "ct2_int8": "Airlines are well aware that some of the core passengers are willing to pay a high price for quick and comfortable travel privileges, so they will charge a corresponding fee."
+    }
+  },
+  {
+    "id": "flores_0944",
+    "source": "曾经是士麦那 (Smyrna) 古城，如今已成为一个现代化、发达且繁忙的商业中心，周围是巨大的海湾和群山。",
+    "reference": "Once the ancient city of Smyrna, it is now a modern, developed, and busy commercial center, set around a huge bay and surrounded by mountains.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 944,
+    "outputs": {
+      "torch_fp32": "Once the ancient city of Smyrna, it has now become a modern, developed and busy business centre surrounded by huge bays and mountains.",
+      "ct2_fp32": "Once the ancient city of Smyrna, it has now become a modern, developed and busy business centre surrounded by huge bays and mountains.",
+      "ct2_int8": "Used to be the ancient city of Smyrna, it has now become a modern, developed and busy business centre surrounded by huge bays and mountains."
+    }
+  },
+  {
+    "id": "flores_0976",
+    "source": "意大利语的发音相对容易，因为大多数单词的发音与拼写完全相同",
+    "reference": "Pronunciation is relatively easy in Italian since most words are pronounced exactly how they are written",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 976,
+    "outputs": {
+      "torch_fp32": "Italian pronunciation is relatively easy, because most words are pronunciation and spelling exactly the same.",
+      "ct2_fp32": "Italian pronunciation is relatively easy, because most words are pronunciation and spelling exactly the same.",
+      "ct2_int8": "Italian pronunciation is relatively easy because most words are pronunciation and spelling exactly the same."
+    }
+  },
+  {
+    "id": "flores_0981",
+    "source": "毋庸置疑的是，如果你会讲一门罗曼语，那么学习葡萄牙语会更加容易。",
+    "reference": "Needless to say, if you know a Romance language, it will be easier for you to learn Portuguese.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 981,
+    "outputs": {
+      "torch_fp32": "There is no doubt that it would be easier to learn Portuguese if you could speak a Roman language.",
+      "ct2_fp32": "There is no doubt that it would be easier to learn Portuguese if you could speak a Roman language.",
+      "ct2_int8": "There is no doubt that it would be easier to learn Portuguese if you could speak a Roman."
+    }
+  },
+  {
+    "id": "flores_1000",
+    "source": "有个传统是在复活节之夜在户外某处醒着看日出。",
+    "reference": "There's a tradition to pass the Easter night awake at some exposed point to see the sunrise.",
+    "split": "flores200_devtest_subset",
+    "repeats": 1,
+    "line_id": 1000,
+    "outputs": {
+      "torch_fp32": "There is a tradition of waking up outside on Easter Night to watch the sunrise.",
+      "ct2_fp32": "There is a tradition of waking up outside on Easter Night to watch the sunrise.",
+      "ct2_int8": "There's a tradition of waking up outside on Easter Night to watch the sunrise."
+    }
+  }
+]
